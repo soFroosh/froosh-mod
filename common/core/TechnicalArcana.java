@@ -3,6 +3,7 @@ package core;
 import network.PacketBase;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
+import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.Mod.PostInit;
 import cpw.mods.fml.common.Mod.PreInit;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -14,9 +15,12 @@ import cpw.mods.fml.common.network.NetworkMod;
 @NetworkMod(clientSideRequired = true, serverSideRequired = false, packetHandler = PacketBase.class, channels = Strings.NETWORK_CHANNELS)
 public class TechnicalArcana {
 
+	@Instance("TechnicalArcana")
+	public static TechnicalArcana instatnce;
+	
 	@Init
 	public void init(FMLInitializationEvent evt){
-		
+		Proxy.load();
 	}
 	
 	@PostInit
