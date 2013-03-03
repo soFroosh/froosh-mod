@@ -4,8 +4,10 @@ import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.Entity;
 
-public class ModelmodelFibreExtractor extends ModelBase
+public class ModelFibreExtractor extends ModelBase
 {
+	
+	public static ModelFibreExtractor instance;
 	
     ModelRenderer BaseBig;
     ModelRenderer BaseSmall;
@@ -22,7 +24,7 @@ public class ModelmodelFibreExtractor extends ModelBase
     ModelRenderer Circle11;
     ModelRenderer Circle12;
   
-  public ModelmodelFibreExtractor()
+  public ModelFibreExtractor()
   {
     textureWidth = 64;
     textureHeight = 64;
