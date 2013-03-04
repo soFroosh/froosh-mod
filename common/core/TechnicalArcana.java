@@ -2,6 +2,7 @@ package core;
 
 import render.RenderFibreExtractor;
 import render.RenderID;
+import tile.TileFibreExtractor;
 import block.BlockBase;
 import block.BlockFibreExtractor;
 import block.BlockID;
@@ -9,6 +10,7 @@ import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.client.MinecraftForgeClient;
 import network.PacketBase;
+import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
@@ -44,7 +46,7 @@ public class TechnicalArcana {
 		
 		//Registrys
 		
-		RenderingRegistry.registerBlockHandler(RenderID.blockFibreExtractorRenderID, new RenderFibreExtractor());
+		ClientRegistry.bindTileEntitySpecialRenderer(TileFibreExtractor.class, new RenderFibreExtractor());
 		
 		GameRegistry.registerBlock(blockFibreExtractor, "blockFibreExtractor");
 
