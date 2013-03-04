@@ -115,6 +115,25 @@ public class ModelFibreExtractor extends ModelBase
       setRotation(Circle12, 0F, 0F, 0F);
   }
   
+	public void renderModel(float f5) {
+
+		BaseBig.render(f5);
+		BaseSmall.render(f5);
+		Circle1.render(f5);
+		Circle2.render(f5);
+		Circle3.render(f5);
+		Circle4.render(f5);
+		Circle5.render(f5);
+		Circle6.render(f5);
+		Circle7.render(f5);
+		Circle8.render(f5);
+		Circle9.render(f5);
+		Circle10.render(f5);
+		Circle11.render(f5);
+		Circle12.render(f5);
+
+	}
+  
   public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5)
   {
     super.render(entity, f, f1, f2, f3, f4, f5);

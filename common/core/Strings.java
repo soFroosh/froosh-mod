@@ -8,6 +8,8 @@ public class Strings {
 	
 	public static final String NETWORK_CHANNELS = "FrooshTA";
 	
-	public static final String BLOCK_TEXTURE_FILE = "/res/tex/BLOCK_1.png";
+	public static final String BLOCK_TEXTURE_FILE = "/resources/tex/BLOCK_1.png";
+	
+	public static final String FIBRE_EXTRACTOR_TEXTURE_FILE = "/resources/tex/modelFibreExtractor.png";
 	
 }
