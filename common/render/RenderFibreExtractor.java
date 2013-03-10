@@ -50,13 +50,13 @@ public class RenderFibreExtractor extends TileEntitySpecialRenderer{
 		BaseBig.rotationPointZ = 0F;
 		
 		
-		BaseSmall = new ModelRenderer(model, 0, 18);
+		BaseSmall = new ModelRenderer(model, 0, 20);
 		BaseSmall.addBox(0F, 1F, 0F, 14, 1, 14);
 		BaseSmall.rotationPointX = 1F;
 		BaseSmall.rotationPointY = 0F;
 		BaseSmall.rotationPointZ = 1F;
 		
-		Circle1 = new ModelRenderer(model, 0, 0);
+		Circle1 = new ModelRenderer(model, 57, 29);
 		Circle1.addBox(0F, 2F, 0F, 6, 1, 1);
 		Circle1.rotationPointX = 5F;
 		Circle1.rotationPointY = 0F;
@@ -68,7 +68,7 @@ public class RenderFibreExtractor extends TileEntitySpecialRenderer{
 		Circle2.rotationPointY = 0F;
 		Circle2.rotationPointZ = 8F;
 		
-		Circle3 = new ModelRenderer(model, 0, 0);
+		Circle3 = new ModelRenderer(model, 57, 29);
 		Circle3.addBox(0F, 3F, 0F, 1, 1, 1);
 		Circle3.rotationPointX = 11F;
 		Circle3.rotationPointY = 0F;
@@ -137,7 +137,7 @@ public class RenderFibreExtractor extends TileEntitySpecialRenderer{
 
 		GL11.glTranslated(x, y, z);
 		
-		ForgeHooksClient.bindTexture(Strings.BLOCK_TEXTURE_FILE, 0);
+		ForgeHooksClient.bindTexture(Strings.FIBRE_EXTRACTOR_TEXTURE_FILE, 0);
 		BaseBig.render(scale);
 		BaseSmall.render(scale);
 		Circle1.render(scale);

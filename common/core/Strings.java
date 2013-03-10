@@ -13,6 +13,4 @@ public class Strings {
 	
 	public static final String FIBRE_EXTRACTOR_TEXTURE_FILE = "/textures/fibreExtractor.png";
 	
-	public static final String WORLD_FIBRE_TEXTURE_FILE = "textures/itemFibreExtractor.png";
-	
 }
