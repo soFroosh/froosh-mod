@@ -15,7 +15,7 @@ public class BlockFibreExtractor extends BlockBase{
 	public BlockFibreExtractor(int i){
 		super(i, Material.iron);
 		this.setBlockName("blockFibreExtractor");
-		setCreativeTab(TechnicalArcana.customTab);
+		setCreativeTab(TechnicalArcana.blockTab);
 	}
 	
 	@Override

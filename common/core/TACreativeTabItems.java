@@ -6,9 +6,9 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-public class TACreativeTab extends CreativeTabs{
+public class TACreativeTabItems extends CreativeTabs{
 
-	public TACreativeTab(String par2Str) {
+	public TACreativeTabItems(String par2Str) {
 		super(par2Str);
 
 	}
@@ -16,12 +16,12 @@ public class TACreativeTab extends CreativeTabs{
 	@SideOnly(Side.CLIENT)
     public String getTabLabel()
     {
-        return "taTab";
+        return "itemTab";
     }
 	
 	@Override
 	public ItemStack getIconItemStack() {
-	    return new ItemStack(Item.eyeOfEnder);
+	    return new ItemStack(Item.appleGold);
 	}
 
 }

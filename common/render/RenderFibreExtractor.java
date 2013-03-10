@@ -50,7 +50,7 @@ public class RenderFibreExtractor extends TileEntitySpecialRenderer{
 		BaseBig.rotationPointZ = 0F;
 		
 		
-		BaseSmall = new ModelRenderer(model, 0, 0);
+		BaseSmall = new ModelRenderer(model, 0, 18);
 		BaseSmall.addBox(0F, 1F, 0F, 14, 1, 14);
 		BaseSmall.rotationPointX = 1F;
 		BaseSmall.rotationPointY = 0F;
