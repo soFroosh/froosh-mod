@@ -15,8 +15,7 @@ public class BlockFibreExtractor extends BlockBase{
 	public BlockFibreExtractor(int i){
 		super(i, Material.iron);
 		this.setBlockName("blockFibreExtractor");
-		setTextureFile(Strings.FIBRE_EXTRACTOR_TEXTURE_FILE);
-		setCreativeTab(CreativeTabs.tabMisc);
+		setCreativeTab(TechnicalArcana.customTab);
 	}
 	
 	@Override
@@ -27,6 +26,12 @@ public class BlockFibreExtractor extends BlockBase{
 	public int getRenderType() {
 		return RenderID.blockFibreExtractorRenderID;
 	}
+	
+	@Override
+    public int getBlockTextureFromSide(int par1) {
+
+        return 1;
+    }
 	
 	public boolean isOpaqueCube() {
 		return false;
