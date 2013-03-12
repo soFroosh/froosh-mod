@@ -1,21 +1,16 @@
 [
 {
-  "modid": "TA",
-  "name": "Technical Arcana",
-  "description": "Mix the magical with the industrial",
-  "version": "0.0.0.1",
-  "url": "not made (MinecraftForumPageHere)",
-  "updateUrl": "",
-  "authorList": [
-    "Froosha",
-    ""
-  ],
-  "credits": "By Froosha",
-  "logoFile": "",
-  "screenshots": [
-  ],
-  "parent":"",
-  "dependencies": [
-  ]
+	"modid": "TA",
+	"name": "TechnicalArcana",
+	"description": "Mix the magical with the industrial.",
+	"version": "0.0.0.1",
+	"credits": "By Froosha",
+	"authors": ["Froosha"],
+	"logoFile": "",
+	"url": "(MinecraftForumPageHere)",
+	"updateUrl": "",
+	"parent": "",
+	"screenshots": [],
+	"dependencies": []
 }
 ]
