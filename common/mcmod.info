@@ -1,0 +1,21 @@
+[
+{
+  "modid": "TA",
+  "name": "Technical Arcana",
+  "description": "Mix the magical with the industrial",
+  "version": "0.0.0.1",
+  "url": "not made (MinecraftForumPageHere)",
+  "updateUrl": "",
+  "authorList": [
+    "Froosha",
+    ""
+  ],
+  "credits": "By Froosha",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
